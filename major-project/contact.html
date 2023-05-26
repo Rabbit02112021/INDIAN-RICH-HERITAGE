@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="india.jpg" type="image/x-icon">
+    <meta name="description"content="favicon">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.9/typed.min.js"></script>
+</head>
+<body>
+    <div class="boss__div">
+
+
+    <header>
+        <div class="banner">
+            <!-- <div class="image__overlay"></div> -->
+            <div class="banner__heading">
+                <h1><span>CONNECT </span> WITH US</h1>
+            </div>
+            <div class="banner__button">
+                <button> <a href="#contact"> Contact</a></button>
+            </div>
+            </div>
+        </div>
+        <nav>
+            <div class="navbar">
+            </div>
+        </nav>
+        <h1 class="jumbotron-heading"><span id="typed"></span></h1>
+    </header>
+    <section id="contact">
+
+  
+<div class="form">
+    <h1>CONTACT</h1>
+</div>
+    <form id="form" action="/" >
+        <div class="inputs">
+            <div class="name">
+                <label for="Name">First Name :</label>
+                <br>
+             <input type="text" name="name"  required>
+            </div>
+      
+          <div class="name">
+            <label for="Name">Last Name :</label>
+            <br>
+             <input type="text" name="last name"  >
+          </div>
+         <div class="name">
+            <label id="ema" for="Email">Email :</label>
+            <br>
+             <input id="em" type="email" name="email"  required>
+         </div>
+ 
+         <div class="name">
+            <label id="mess" for="message">Message :</label>
+            <br>
+             <input type="text" id="message" name="password"  required>
+         </div>
+     
+             <button id="button" type="submit">Send</button>
+    
+ 
+         </form>
+        </section>
+
+        <script>
+            document.getElementById('form').addEventListener('submit', () => {
+                alert("Successful")
+            })
+        </script>
+</body>
+</html>
